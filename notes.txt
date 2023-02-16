@@ -1,0 +1,27 @@
+media pipe est une excellente bibliothèque python qui contient en fait plusieurs modèles 
+deep learning pretrained pour differentes cas d'utilisations.
+Parmi les solutions face detection ,face mesh pour estimer tous les repères possible sur le
+visage, Iris pour tracker les yeux et ajouter des effets et il y en a plusieurs d'autre solutions
+intéressantes.
+je pense la solution la plus adapté est MediaPipe Holistic, permet de detecter la posture, les repères
+du visage et le mouvement des membres du corps en même temps et c'est en temps réel.si je me rapelle monsieur 
+abdslam a mentionne un volet sportif motion donc ca sera ideal pour ce genre de task,
+
+
+Dynamic Time Warping est un algorithme utilisé pour synchroniser deux séries temporelles ou deux sequences.
+la methode naive de comparaison est de calculer la distance entre chaque point puis effectuer la moyenne
+
+par exemple K-nearest neighbours
+on compare deux items qui ont les mêmes dimensions on peut utiliser distance euclidienne si ce n'est pas le cas
+on peut utilise Dynamic Time Warping comme une distance metric si les données sont des signals ou des sequences de differentes
+longueurs.
+
+l'algorithme aligne les points entre les deux signals, on peut donc savoir quels points correspondent les uns aux autres et par suite
+il donne un cost d'alignement qui vas permettre de savoir à quel point les deux signaux sont-ils similaires
+
+
+input of the model : a data signal
+savoir lequel des 3 personnes est le plus proche de la mesure du signal d'entrée donc il va prédir de quelle personne le signal
+arrive 
+
+
