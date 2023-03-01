@@ -1,0 +1,19 @@
+normalisation : la personne ne devra pas nécessairement être dans la même position que la video à l'écran
+uniformiser la position centrale du cadre (le nez) en soustrayant toutes les coordonnées par la coordonnée du nez,
+ce qui fait que les coordonnées du nez est constamment à (0,0)
+Convertir les poins joints en angles
+
+
+La fenêtre est un paramètre w contrôlant jusqu'où le chemin de déformation peut s'écarter de la diagonale
+controle le nombre maximum de déformation accepte
+La meilleure valeur de w est l'erreur la plus faible de cross-validation au plus proche voisin
+
+
+Les opérations de compression et d'expansion se produisent lorsqu'une série temporelle est étirée ou compressée dans le temps pour correspondre
+l'autre série chronologique. Ces opérations sont nécessaires dans DTW car les deux séries temporelles comparées peuvent
+ont des longueurs différentes ou peuvent être déphasés les uns par rapport aux autres.
+
+vous pouvez contrôler dans quelle mesure l'algorithme est autorisé à compresser ou à étendre la série temporelle comparée.
+
+
+
