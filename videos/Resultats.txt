@@ -1,0 +1,4 @@
+PLANK1 && (video differente) ==> d = 9580 (même dimension)   / d = 6702 (dimension original)
+PLANK1 && PLANK2 ==> d = 9580 (même dimension)   / d = 6702 (dimension original)
+PLANK1 && PLANK3 ==> d = 1712 (même dimension)  / d = 15814 (dimension original) 
+PLANK1 && PLANK4 ==> d = 1081 (même dimension)  / d = 15061 (dimension original) 
